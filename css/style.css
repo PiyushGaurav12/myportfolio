@@ -152,12 +152,7 @@ main div a:hover{
     margin: 6px 30px;
       
 }
-.footerright{
-    width: 70%;
-    height: 20vh;
-    margin: 6px 20px;
-    background-color: red;    
-}
+
 .logo{
     height: 20vh;
 }
@@ -167,6 +162,7 @@ main div a:hover{
 }
 .carousel-item{
     position: relative;
+    
 }
 .carousel-item:hover .carousel_btn{
     display: block;
@@ -184,9 +180,24 @@ main div a:hover{
     font-size: 23px;
     background-color: rgb(8, 119, 223);
 }
+.btn2{    
+    background-color: #1b1b46;
+    border: 0;
+    color: beige;
+}
+.footerright{
+    width: 70%;
+    height: 20vh;
+    margin: 6px 20px;
+    
+}
+.footer-items{ 
+    display: inline-block;     
 
-@media only screen and (max-width: 768px) {
-    .secondsection{
-        flex-direction: column-reverse;
-    }
+}
+.footer-items div{
+    font-size: 2.5rem;
+    align-items: center;
+    margin-top: 74px;
+    margin-left: 742px;
 }
